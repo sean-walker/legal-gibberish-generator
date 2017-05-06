@@ -1,0 +1,8 @@
+feedparser==5.2.1
+Flask==0.11.1
+gunicorn==19.6.0
+itsdangerous==0.24
+Jinja2==2.8
+virtualenvwrapper==4.7.2
+Werkzeug==0.11.11
+nltk==3.2.1
