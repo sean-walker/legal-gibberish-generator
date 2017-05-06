@@ -44,6 +44,7 @@ class CorpusParser:
                 pickle.dump(self.tokens, f)
             print ('done')
         else:
+            print ('Found tokenized file {}'.format(tokenized))
             with open(os.path.join(APP_STATIC, tokenized), 'rb') as f:
                 self.tokens = pickle.load(f)
 
